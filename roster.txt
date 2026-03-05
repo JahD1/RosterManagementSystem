@@ -1,0 +1,105 @@
+Introduction to Computer Science|CS101|3|Dr. Patel
+Harper | Lee |375269| Junior |114|3.06|3/17/2019|3/21/2025|
+Reese | Johnson |537731| Freshman |66|2.39|7/4/2018|8/24/2025|
+Parker | Allen |995317| Freshman |109|2.12|12/27/2022|6/12/2025|
+Riley | Brown |940306| Junior |49|2.24|6/19/2018|10/29/2023|
+Parker | Martinez |639501| Senior |89|2.49|1/4/2019|2/10/2025|
+Avery | Thomas |373209| Sophomore |62|3.08|7/7/2020|3/25/2027|
+Rowan | Scott |299099| Junior |76|2.97|12/29/2021|12/13/2027|
+Skyler | Allen |361079| Senior |40|3.83|4/20/2019|8/20/2023|
+Quinn | King |356662| Junior |6|2.99|7/12/2020|2/2/2026|
+Riley | Scott |619660| Freshman |74|2.34|1/2/2020|5/25/2027|
+Avery | Brown |779229| Sophomore |58|3.61|4/7/2018|9/26/2024|
+Cameron | Brown |904794| Sophomore |116|2.13|12/5/2018|4/30/2023|
+Finley | Thomas |825136| Senior |32|3.07|11/29/2021|2/2/2024|
+Avery | Anderson |818738| Junior |101|3.01|2/1/2021|11/19/2026|
+Quinn | Lewis |315336| Freshman |66|3.8|4/8/2020|11/5/2025|
+Taylor | Allen |921917| Senior |40|3.04|6/1/2021|9/4/2024|
+Cameron | Anderson |853544| Senior |49|2.8|2/20/2021|9/14/2027|
+Logan | Clark |703242| Sophomore |26|2.41|11/15/2020|5/19/2023|
+Jamie | Lee |819560| Senior |11|2.73|4/3/2019|1/17/2027|
+Avery | Allen |247225| Sophomore |100|2.57|6/8/2022|3/12/2026|
+Logan | Brown |310467| Sophomore |15|2.06|8/11/2019|5/11/2023|
+Casey | Johnson |856491| Sophomore |98|2.24|7/25/2019|6/16/2026|
+Parker | Allen |569557| Senior |56|3.99|3/10/2022|2/26/2026|
+Skyler | Johnson |329314| Senior |109|3.21|6/10/2022|8/23/2026|
+end_roster|
+Database Systems|CS310|3|Dr. Patel
+Quinn | Johnson |595281| Freshman |88|2.5|1/28/2018|10/24/2025|
+Blake | Brown |244874| Junior |114|2.44|12/28/2019|11/4/2025|
+Quinn | Clark |384213| Junior |19|2.08|12/5/2021|10/20/2026|
+Jamie | Wilson |316757| Junior |68|3.43|8/30/2019|2/4/2025|
+Quinn | Thomas |762413| Junior |50|3.29|10/18/2021|3/23/2025|
+Jamie | Lee |627778| Sophomore |62|3|4/30/2021|11/22/2027|
+Rowan | Lewis |128348| Senior |19|3.68|5/13/2021|7/17/2027|
+Skyler | Hall |936132| Sophomore |55|2.24|6/22/2018|1/9/2023|
+Rowan | Wright |302710| Senior |94|2.51|3/31/2020|7/13/2024|
+Riley | Brown |964367| Junior |63|2.17|12/21/2021|5/1/2027|
+Harper | Young |437030| Sophomore |17|2.51|3/18/2018|3/24/2023|
+Avery | Allen |716168| Sophomore |5|2.12|2/14/2018|9/10/2026|
+Drew | King |599394| Junior |15|2.28|1/30/2019|11/9/2026|
+Alex | Brown |181042| Sophomore |48|3.71|12/5/2018|4/9/2024|
+Emerson | Lewis |547744| Senior |41|2.17|6/10/2021|4/4/2025|
+Riley | Wilson |507970| Freshman |57|3.25|6/27/2021|1/6/2023|
+Finley | Young |581508| Junior |37|2.41|4/15/2019|4/2/2024|
+Finley | Clark |103405| Junior |22|2.11|9/2/2021|2/8/2024|
+Drew | Scott |679365| Sophomore |68|3.75|1/23/2022|9/19/2024|
+Reese | Young |113328| Senior |41|3.03|6/6/2022|5/23/2024|
+Casey | Smith |799108| Junior |46|3.39|5/10/2021|12/11/2024|
+Jordan | Clark |541982| Junior |67|3.88|6/7/2019|7/25/2023|
+Quinn | Lewis |587249| Sophomore |93|3.04|4/10/2021|10/6/2026|
+end_roster|
+Operating Systems|CS420|4|Dr. Carter
+Jordan | Davis |606280| Sophomore |26|3.8|12/4/2021|8/11/2023|
+Rowan | Walker |912935| Junior |52|3.84|6/2/2018|12/17/2025|
+Rowan | Smith |804449| Freshman |50|2.88|6/4/2022|12/28/2025|
+Harper | Johnson |838866| Junior |113|2.85|7/6/2020|2/13/2024|
+Riley | Scott |529086| Freshman |34|2.89|3/29/2018|3/17/2027|
+Alex | Wright |583868| Junior |25|3.3|3/28/2022|6/11/2024|
+Avery | Young |681699| Freshman |101|3.62|1/18/2022|12/6/2023|
+Avery | Lee |657700| Junior |106|2.44|3/6/2019|9/22/2027|
+Blake | Brown |981223| Freshman |48|2.06|6/17/2018|8/23/2025|
+Skyler | Thomas |430818| Junior |111|3.28|8/24/2022|12/8/2026|
+Avery | Walker |194095| Freshman |32|3.17|5/2/2018|2/26/2025|
+Avery | Robinson |459139| Senior |92|3.48|1/8/2019|1/27/2027|
+Casey | Lee |795353| Junior |22|2.35|6/13/2020|11/28/2024|
+Emerson | Brown |382911| Sophomore |77|3.54|11/18/2018|10/1/2023|
+Logan | Young |356156| Junior |77|3.86|8/2/2020|2/7/2024|
+Quinn | Walker |593881| Sophomore |34|3.29|9/18/2019|12/29/2026|
+Casey | King |185738| Junior |95|3.75|3/6/2018|9/16/2026|
+Jamie | Young |137099| Sophomore |86|2|1/10/2018|3/25/2023|
+Skyler | Martinez |940399| Junior |82|3.13|1/31/2019|5/4/2027|
+Rowan | King |234209| Junior |20|2.79|12/19/2018|3/13/2027|
+Drew | Lee |714339| Sophomore |80|3.55|6/15/2022|11/9/2026|
+Drew | Martinez |343739| Junior |16|2.63|5/17/2022|1/27/2024|
+end_roster|
+Software Engineering|CS430|3|Prof. Kim
+Taylor | Robinson |843212| Freshman |69|2.93|9/20/2019|6/7/2025|
+Drew | Robinson |227573| Senior |29|2.8|8/26/2019|5/31/2025|
+Emerson | Allen |322578| Senior |79|3.65|6/9/2022|5/14/2024|
+Taylor | Davis |591323| Sophomore |26|3.95|12/2/2018|12/9/2025|
+Reese | Scott |197365| Junior |111|3.41|4/15/2019|5/9/2027|
+Morgan | Johnson |789335| Junior |100|3.71|3/15/2018|12/9/2027|
+Harper | Allen |241249| Senior |100|3.5|9/17/2019|5/4/2025|
+Morgan | Harris |990700| Sophomore |22|3.58|12/22/2018|5/1/2024|
+Avery | Walker |162878| Freshman |51|2.68|4/22/2020|1/5/2025|
+Quinn | Davis |683078| Senior |3|2.06|2/21/2018|2/27/2025|
+Quinn | Davis |470403| Senior |31|3.45|8/21/2018|1/6/2023|
+Parker | King |458222| Senior |108|2.87|6/10/2022|11/21/2023|
+Harper | Brown |217404| Sophomore |72|3.22|10/30/2018|10/27/2024|
+Rowan | Allen |153098| Senior |14|2.53|10/27/2021|6/22/2027|
+Cameron | Anderson |860326| Junior |14|3.45|11/22/2018|3/2/2023|
+Rowan | Davis |416920| Sophomore |98|3.56|11/21/2022|5/2/2026|
+Morgan | Brown |546933| Sophomore |64|2.55|10/7/2018|2/6/2027|
+Casey | Brown |551478| Sophomore |6|2.84|5/14/2018|6/28/2023|
+Morgan | Anderson |839015| Freshman |89|3.28|4/19/2019|6/20/2023|
+Logan | Hall |284237| Freshman |27|2.24|9/3/2018|7/6/2024|
+Quinn | Young |591478| Senior |91|3.82|6/28/2020|4/4/2024|
+Blake | Robinson |623728| Senior |88|3.74|7/9/2018|12/4/2024|
+Taylor | Harris |376218| Sophomore |96|3.57|11/27/2018|10/25/2023|
+Alex | Smith |780228| Senior |51|2.7|7/8/2020|10/30/2027|
+end_roster|
+Computer Networks|CS450|3|Dr. Carter
+end_roster|
+Law & Policy|LP543|4|Ade
+end_roster|
