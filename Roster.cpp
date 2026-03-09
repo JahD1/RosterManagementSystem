@@ -33,6 +33,8 @@ Roster::Roster(const Roster& rosterObject)
 }
 
 // = operator implementation copies roster infor fron right side and overrights roster on left side
+
+//method needs to be fixed for memory leaks pointers to students on left student pointers get lost in mem need to be be deleted before student objects in right side array gets coppied to the left side.
 Roster& Roster:: operator = (const Roster& roster)
 {
     if(this == &roster)
@@ -63,11 +65,6 @@ Roster& Roster:: operator = (const Roster& roster)
     {
         students[i] =nullptr;
     }
-    
-    courseCode = roster.courseCode;
-    courseName = roster.courseName;
-    instructorName = roster.instructorName;
-    numberOfCredits = roster.numberOfCredits;
     
     return *this;
 }
@@ -134,9 +131,11 @@ StudentPtr* Roster::getStudents()const
     return students;
 }
 
+//changed the way capacity is doubled for clarity
 void Roster::resize()
 {
-    StudentPtr * newArray = new StudentPtr[2*capacity];
+    int newCapacity = 2 * capacity;
+    StudentPtr * newArray = new StudentPtr[newCapacity];
     
     StudentPtr * oldArray;
     
@@ -146,12 +145,12 @@ void Roster::resize()
         newArray[i] = students[i];
     }
     
-    for(int i = filledSlots; i < 2*capacity; i++)
+    for(int i = filledSlots; i < newCapacity; i++)
     {
         newArray[i] = nullptr;
     }
     
-    capacity = 2* capacity;
+    capacity = newCapacity;
     
     oldArray = students;
     

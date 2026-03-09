@@ -193,26 +193,25 @@ void writeRosterFile(const std::vector<Roster> & rosters)
     outStream.close();
 }
 //Helper Function To Enter Student Information (used to insert new student to a roster)
-Student enterStudentInfo()
+
+//method now updates object that is passed instead of returning a new object. student id no longer gets lost.
+void enterStudentInfo(Student& student)
 {
     int tempNumberOfCredits;
     double tempGpa;
     std:: string tempFirstName, tempLastName, tempStanding;
     Date tempMatriculationDate, tempDateOfBirth;
     
-    Student temp;
-    
-    std::cin.ignore(std::numeric_limits<std::streamsize>:: max(),'\n');
     
     std::cout<< "Enter the Last Name of The Student You Want To Add To The Roster : \n";
     std::getline(std::cin, tempLastName);
     
-    temp.setLastname(tempLastName);
+    student.setLastname(tempLastName);
     
     std::cout<< "Enter the First Name of The Student You Want To Add To The Roster : \n";
     std::getline(std::cin, tempFirstName);
     
-    temp.setFirstName(tempFirstName);
+    student.setFirstName(tempFirstName);
     
     
     std::cout<< "Enter the Number Of Credits of The Student You Want To Add To The Roster : \n";
@@ -220,37 +219,36 @@ Student enterStudentInfo()
     
     std::cin.ignore(std::numeric_limits<std::streamsize>:: max(),'\n');
     
-    temp.setCredits(tempNumberOfCredits);
+    student.setCredits(tempNumberOfCredits);
     
     std::cout<< "Enter the Standing of The Student You Want To Add To The Roster : \n";
     std::getline(std::cin, tempStanding);
     
-    temp.setStanding(tempStanding);
+    student.setStanding(tempStanding);
     
     std::cout<< "Enter the GPA of The Student You Want To Add To The Roster : \n";
     std::cin >> tempGpa;
     
     std::cin.ignore(std::numeric_limits<std::streamsize>:: max(),'\n');
     
-    temp.setGpa(tempGpa);
+    student.setGpa(tempGpa);
     
     std::cout<< "Enter the Matriculation Date of The Student You Want To Add To The Roster : \n";
     std::cin >> tempMatriculationDate;
     
     std::cin.ignore(std::numeric_limits<std::streamsize>:: max(),'\n');
     
-    temp.setMatriculationDate(tempMatriculationDate);
+    student.setMatriculationDate(tempMatriculationDate);
     
     std::cout<< "Enter the Date of Birth of The Student You Want To Add To The Roster : \n";
     
     std::cin >> tempDateOfBirth;
     std::cin.ignore(std::numeric_limits<std::streamsize>:: max(),'\n');
     
-    temp.setDateOfBirth(tempDateOfBirth);
-    
-    return temp;
+    student.setDateOfBirth(tempDateOfBirth);
 }
 //Supervior Mode
+//there is an unknown behavior with adding a student to the course
 void SupervisorMode(std::vector<Roster> &rosters)
 {
     int answer;
@@ -400,9 +398,7 @@ void SupervisorMode(std::vector<Roster> &rosters)
                         if(rosters[i].getCourseCode() == courseCode)
                         {
                             //std::cout << "DEBUG: " << rosters[i].getCourseCode();
-                            
-                            std::cout << courseCode;
-                            
+                    
                             rosterIndex = i;
                             foundCourse = true;
                             break;
@@ -414,6 +410,7 @@ void SupervisorMode(std::vector<Roster> &rosters)
                         int studentId;
                         switch(option)
                         {
+                                // temp needs to be passed to enter student info
                             case 'a':
                             {
                                 Student temp;
@@ -430,7 +427,8 @@ void SupervisorMode(std::vector<Roster> &rosters)
                                 }
                                 else
                                 {
-                                    temp = enterStudentInfo();
+                                    //call edits temp student object itself
+                                     enterStudentInfo(temp);
                                     
                                     rosters[rosterIndex].addStudent(temp);
                                 }
@@ -597,7 +595,8 @@ void UserMode(std::vector<Roster>& rosters)
                 }
                 else
                 {
-                    temp = enterStudentInfo();
+                    //call edits temp student object itself
+                    enterStudentInfo(temp);
                     rosters[rosterIndex].addStudent(temp);
                 }
             }

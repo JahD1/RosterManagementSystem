@@ -100,6 +100,5 @@ Taylor | Harris |376218| Sophomore |96|3.57|11/27/2018|10/25/2023|
 Alex | Smith |780228| Senior |51|2.7|7/8/2020|10/30/2027|
 end_roster|
 Computer Networks|CS450|3|Dr. Carter
-end_roster|
-Law & Policy|LP543|4|Ade
+Annie|Fred|29809|Sophmore|35|3|8/30/1999|9/12/2024|
 end_roster|
